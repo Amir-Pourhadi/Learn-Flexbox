@@ -111,6 +111,7 @@ article h2 {
 
   article {
     flex: 0 1 32%;
+    transition: flex-basis 0.2s linear;
   }
 
   article.stack {
