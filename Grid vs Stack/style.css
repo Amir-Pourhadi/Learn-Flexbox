@@ -75,6 +75,10 @@ article h2 {
   margin: 10px 0;
 }
 
+.change-layout {
+  display: none;
+}
+
 /* ------------------------------- flex styles ------------------------------ */
 @media only screen and (min-width: 768px) {
   nav {
@@ -101,8 +105,16 @@ article h2 {
     justify-content: space-between;
   }
 
+  .change-layout {
+    display: block;
+  }
+
   article {
     flex: 0 1 32%;
+  }
+
+  article.stack {
+    flex: 0 1 100%;
   }
 }
 
